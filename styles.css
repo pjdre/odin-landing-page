@@ -53,7 +53,7 @@
     background-color: rgb(106, 118, 118);
     text-align: center;
     width: 400px;
-    padding: 100px;
+    padding: 100px 75px 100px 75px;
     
 }
 
@@ -119,3 +119,26 @@ button {
     margin-top: 10px;
 }
 
+/* box 3 section */
+
+.box-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 150px;
+    padding: 0px 300px 0px 300px;
+}
+
+.author {
+    margin-bottom: 150px;
+    font-weight: 800;
+    margin-left: 600px;
+}   
