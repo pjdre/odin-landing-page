@@ -3,8 +3,10 @@
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
+    padding-bottom: 100px;
+    gap: 50px;
 }
 
 .header {
@@ -16,49 +18,49 @@
 
 .left-header {
     font-size: 24px;
-    font-weight: 900;
-    flex-shrink: 0;
+    font-weight: 700;
     width: 400px;
 }
 .right-header {
     display: flex;
     justify-content: space-evenly;
     gap: 16px;
-    flex-shrink: 0;
-    align-items: center;
-    width: 400px;
+    align-items: flex-end;
+    width: 500px;
+    color: #e5e7eb;
+    font-size: 18px;
 
 }
 
 .subheader {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     padding: 50px 200px 0px 200px;
 }
+
 
 .left-container {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    width: 400px;
-    margin-right:auto;
+    align-items: flex-start;
+    width: 375px;
+    margin-right: auto;
+
 }
 
 .right-container {
     background-color: rgb(106, 118, 118);
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
     text-align: center;
     width: 400px;
-    padding:50px;
+    padding: 100px;
+    
 }
 
-/* * {
-    outline: 2px solid red;
+ * {
     font-family: 'Roboto',sans-serif;
-} */
+    /* outline: 1px solid red; */
+} 
 
 .hero {
     font-size: 48px;
@@ -75,3 +77,45 @@ button {
     font-weight: 700;
     font-size: 16px;
 }
+
+.placeholder {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box 2 section */
+
+.box-2-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-row {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 75px;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
