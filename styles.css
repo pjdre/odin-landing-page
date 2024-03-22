@@ -134,7 +134,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     margin-top: 150px;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 320px 0px 320px;
 }
 
 .author {
@@ -142,3 +142,44 @@ button {
     font-weight: 800;
     margin-left: 600px;
 }   
+
+/* box 4 section */
+
+.box-4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-4 {
+    display:flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    gap: 200px;
+    width: 1000px;
+}
+
+.left-4 {
+    display:flex;
+    flex-direction: column;
+}
+
+.bottom-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.call-action {
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.action-text {
+    color: #e5e7eb;
+}
